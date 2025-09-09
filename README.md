@@ -20,10 +20,12 @@ Each section ensures the data collected is relevant and well-organized for poten
 ## 📂 File Structure Explanation
 
 form-project/
+ 
+├── index.html    Main HTML file with the form
 
-├── index.html  ** Main HTML file with the form**
-├── README.md   **Project documentation (this file)**
-└── .gitignore  **Prevents unnecessary files from being tracked**
+├── README.md   Project documentation (this file)
+
+└── .gitignore     Prevents unnecessary files from being tracked
 
 ---
 
@@ -32,6 +34,31 @@ form-project/
 - Uses **semantic HTML tags** (like `<form>`, `<fieldset>`, `<label>`, `<input>`).  
 - Validation is handled using HTML5 attributes (`required`, `type="email"`, etc.).  
 - The structure is kept simple for learning and demonstration purposes.
+  
 
 ---
+## 👨‍💻 How to Use the Form
+
+1. **Clone the repository** to your local machine:
+   ```bash
+     git clone https://github.com/kylekariuki93/kyle-forms.git
+2. navigate on the project folder
+
+ kyle-forms
+
+
+3. Open the form:
+
+- Locate the index.html file.
+
+- Double-click it OR right-click and choose Open With → Browser.
+
+- The form will display in your default web browser.
+
+4. Fill in the fields (e.g., name, email, course, etc.) and test the submit/reset buttons.
+
+
+
+---
+
 

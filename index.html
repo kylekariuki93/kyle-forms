@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER REGISTRATION FORM</title>
+</head>
+<header> USER REGISTRATION FORM</header>
+<body>
+    <FORM>
+        <fieldset>
+            <legend> PERSONAL INFORMATION</legend>
+        <label for="fname"> FIRST NAME</label>
+        <input type ="text" id="fname" name ="fname"><br><br>
+        <label for="lname"> LAST NAME</label>
+        <input type ="text" id="lname" name ="lname"><br><br>
+        <label for="dob"> Date Of birth </label>
+        <input type ="date" id="dob" name ="dob"><br><br>
+        <label for="age"> AGE</label>
+        <input type ="number" id="age" name ="age"><br><br>
+        <label for="gender"> GENDER</label><br>
+        <input TYPE="radio" id="male" name="gender" value="male required">
+        <label for="Male"> Male</label><br>
+        <input TYPE="radio" id="female" name="gender" value="female required">
+        <label for="Female"> Female</label><br>
+        <lebeL for="pphoto"> PROFILE PHOTO:</label>
+        <input type ="file" id="pphoto" name ="pphoto"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend> CONTACT & ADRESS INFORMATION</legend>
+            <label for="email"> EMAIL</label>
+            <input type ="email" id="email" name ="email" placeholder=" kylekariuki93@gmail.com"><br>   
+            <label for="phone"> PHONE NUMBER</label>
+            <input type ="tel" id="phone" name ="phone" placeholder="+254712345678"><br>
+            <label for="personal website"> Personal Website</label> 
+            <input type ="url" id="website" name ="website" placeholder="www.kylekariuki.com"><br>
+            <label for="sadress">  Street Adress</label>
+            <input type ="text" id="saddress" name ="saddress"><br>
+            <label for="city"> CITY</label>
+            <input type ="text" id="city" name ="city"><br>
+            <label for="country"> Country</label>
+            <select id ="country" name="country" required aria-placeholder="select your country"><BR>
+                <option value="kenya"> Kenya</option>
+                <option value="uganda"> Uganda</option>
+                <option value="tanzania"> Tanzania</option>
+                <option value="rwanda"> Rwanda</option>
+                <option value="south sudan"> South Sudan</option>
+                <option value="ethiopia"> Ethiopia</option>
+                <option value="somalia"> Somalia</option>
+                <option value="burundi"> Burundi</option>
+            </select><br>
+            <label for="zipcode"> ZIP CODE</label>
+            <input type="zipcode" id="zipcode" name="zipcode" placeholder="00100"><br>
+            <label for="pcalling time"> Preferred Calling Time</label>
+            <input type="time" id="pcalling time" name="pcalling time"><br>
+        </fieldset>
+        <fieldset>
+            <legend> Preferences & Intrests</legend>
+            <label for="favcolor"> FAVOURITE COLOR</label>
+            <input type="color" id="favcolor" name="favcolor"><br>
+            <label for="lexperience"> Level Of Experience</label>
+            <input type="range" id="lexperience" name="lexperience" min="0" max="10"><br>
+            <label for="bmonth"> Birth month</label>
+            <input type="month" id="bmonth" name="bmonth"><br>
+            <label for="aweek"> Available Week</label>
+            <input type="week" id="aweek" name="aweek"><br>
+            <label for="skeywords"> Search keywords</label>
+            <input type="search" id="skeywords" name="skeywords" placeholder="programming, coding, development"><br>
+            <legend> Intrests ( select all that apply)</legend>
+            <LABel>
+                <input type="checkbox" id="sports" name="intrests" value="sports">
+                <label for="sports"> Sports</label><br>
+                <input type="checkbox" id="music" name="intrests" value="music">
+                <label for="music"> Music</label><br>
+                <input type="checkbox" id="travel" name="intrests" value="travel">
+                <label for="travel"> Travel</label><br>
+                <input type="checkbox" id="reading" name="intrests" value="reading">
+                <label for="reading"> Reading</label><br>
+                <input type="checkbox" id="gaming" name="intrests" value="gaming">
+                <label for="gaming"> Gaming</label><br>
+                <input type="checkbox" id="cooking" name="intrests" value="cooking">
+                <label for="cooking"> Cooking</label><br>
+                <input type="checkbox" id="art" name="intrests" value="art">
+                <label for="art"> Art</label><br>
+                <input type="checkbox" id="technology" name="intrests" value="technology">
+                <label for="technology"> Technology</label><br>
+                <input type="checkbox" id="fitness" name="intrests" value="fitness">
+                <label for="fitness"> Fitness</label><br>
+                <input type="checkbox" id="photography" name="intrests" value="photography">
+                <label for="photography"> Photography</label><br>
+            </LABel>
+            <label for="Education leval:"> EDUCATION LEVEL</label>
+            <select id="education" name="education" required><br><BR>
+                <option value="high school"> High School</option>
+                <option value="diploma"> Diploma</option>
+                <option value="bachelors degree"> Bachelors Degree</option>
+                <option value="masters degree"> Masters Degree</option>
+                <option value="doctorate degree"> Doctorate Degree</option>
+            </select><br>
+            <Label FOR="create password"> CREATE PASSWORD</label>
+            <input type="password" id="cpassword" name="cpassword" placeholder="create password"><br>
+            <label for="cpassword"> confim password</label>
+            <input type="password" id="cpassword" name="cpassword" placeholder="confirm password"><br>
+        </fieldset>
+        <fieldset>
+        <legend>FEEDBACK & ADDITIONAL INFORMATION</legend>
+        <label for="tellaboutyourself"> Tell Us About yourself:</label><br>
+        <textarea id="tellaboutyourself" name="tellaboutyourself" rows="4" cols="50" placeholder="write a brief description of yourself..."></textarea><br>
+        <label for="suggestion">Suggestion For Improvenments</label><br>
+        <textarea id="suggestion" name="suggestion" rows="4" cols="50" placeholder="any suggestion and feedback..."></textarea><br>
+        <lebeL for ="Registration time and date"> Registration time and Date</lebeL>
+        <input type="datetime-local" id="Registration time and date" name="Registration time and date"><br>
+        <label for="hdidyouhearys">How did you hear us</label>
+        <select id="hdidyouhearys" name="hdidyouhearys" required><br><BR>
+            <option value="social media"> Social Media</option>
+            <option value="friend or family"> Friend Or Family</option>
+            <option value="online search"> Online Search</option>
+            <option value="advertisement"> Advertisement</option>
+            <option value="other"> Other</option>
+        </select><br>
+        <label for="uploadresume">Upload Resume (optional)</label>
+        <input type="file" id="uploadresume" name="uploadresume"><br>
+        <label>
+            <input type ="checkbox" subscribe to our newsletter>
+            Subscribe to our newsletter <br>
+            <input type="checkbox"  I agree to terms and conditions>
+            I agree to terms and conditions <br>
+            <input type="checkbox"  I agree to privacy policy>
+            I agree to privacy policy <br>
+        </label>
+        </fieldset>
+        <button> REGISTER</button> 
+        <BUtton>CLEAR FORM</BUtton>
+
+
+
+
+
+
+
+
+
+    
+    </FORM>
+    
+</body>
+</html>

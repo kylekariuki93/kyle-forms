@@ -18,11 +18,12 @@ Each section ensures the data collected is relevant and well-organized for poten
 ---
 
 ## 📂 File Structure Explanation
+
 form-project/
-│
-├── index.html 📄 # Main HTML file with the form
-├── README.md 📝 # Project documentation (this file)
-└── .gitignore 🚫 # Prevents unnecessary files from being tracked
+
+├── index.html  ** Main HTML file with the form**
+├── README.md   **Project documentation (this file)**
+└── .gitignore  **Prevents unnecessary files from being tracked**
 
 ---
 
